@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(15, 233, 233);
+}
+
+header, footer {
+    background-color: #fb15c5;
+    color: #0411ff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.product, .person, .contact-info {
+    margin-bottom: 15px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Existing CSS styles */
+
+.people {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pe
+{
+    margin-right:50px;
+}
+
+
+
+.person h2, .person p {
+    margin: 0;
+}
+
+.cirpic{
+    position:absolute;
+    top:35%;
+    margin-left: 70px;
+    display: inline-block; /* Ensure each person is displayed inline */
+
+    
+}
+.text{
+    position:absolute;
+    top:55%;
+    margin-left:20px;
+    font-size:15px;
+    
+}
+
+.image {
+    max-width: 400px; 
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.text2{
+    position:absolute;
+    top:60%;
+    margin-left:5px;
+    font-size:10px;
+}
